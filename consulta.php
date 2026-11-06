@@ -13,7 +13,7 @@
     include "navbar.php";
     include "conexion.php";
 
-    $sql = "SELECT * FROM libros ORDER BY id DESC;";
+    $sql = "SELECT * FROM libros ORDER BY titulo;";
     $resultado = mysqli_query($con, $sql);
     ?>
 
